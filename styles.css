@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ba5400;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1.2em;
+  color: #333;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.master {
+  margin: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.master:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+.master img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; 
+}
+.master:hover img {
+  transform: scale(1.05);
+}
+.master h3 {
+  margin: 10px 0;
+  color: #333;
+}
+.master button {
+  margin: 10px 0 20px;
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.master button:hover {
+  background-color: #0056b3;
+}
